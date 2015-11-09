@@ -3,9 +3,15 @@
 Given two Lists, find values in the first list that are not in the second list and return those values in a third list
 */
 
+/*ArrayList and HashSet */
+
 /*
 The 2nd implementation tries to reduce the time complexity.
-It’s similar to the 1st one, except that we first put the second list in a HashSet. This will get all the unique elements into the Set. Moverover, all the elements were hashed to a certain bucket. This will reduce the look-up operation time later. Hashset has a O(1) lookup time complexity (worst case O(n) ).
+It’s similar to the 1st one, except that we first put the second list in a HashSet. 
+This will get all the unique elements into the Set. 
+Moverover, all the elements were hashed to a certain bucket. 
+This will reduce the look-up operation time later. 
+Hashset has a O(1) lookup time complexity (worst case O(n) ).
 */
 
 
